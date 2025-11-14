@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">नेत्र+</string>
+    <string name="tts_welcome">नेट्रा प्लस में आपका स्वागत है – आपकी एक्सेसिबिलिटी गाइड.</string>
+    <string name="title_language">भाषा चुनें</string>
+    <string name="lang_english">English</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <string name="title_home">होम</string>
+    <string name="title_category">श्रेणी</string>
+    <string name="title_about">परिचय</string>
+
+    <string name="cat_government">सरकारी एवं आईडी सेवाएँ</string>
+    <string name="cat_health">स्वास्थ्य एवं सुरक्षा</string>
+    <string name="cat_education">शिक्षा एवं सीखना</string>
+    <string name="cat_jobs">रोज़गार एवं अवसर</string>
+    <string name="cat_banking">बैंकिंग एवं वित्त</string>
+    <string name="cat_daily">दैनिक ज़रूरतें</string>
+
+    <string name="desc_government">सरकारी और पहचान सेवाएँ</string>
+    <string name="desc_health">स्वास्थ्य और सुरक्षा सेवाएँ</string>
+    <string name="desc_education">शिक्षा और सीखने की सेवाएँ</string>
+    <string name="desc_jobs">रोज़गार और अवसर सेवाएँ</string>
+    <string name="desc_banking">बैंकिंग और वित्त सेवाएँ</string>
+    <string name="desc_daily">दैनिक उपयोग की सेवाएँ</string>
+
+    <string name="button_about">परिचय</string>
+    <string name="about_text">नेत्र+ दृष्टिबाधित उपयोगकर्ताओं को ऑफ़लाइन आवश्यक सेवाएँ वॉयस और हैप्टिक मार्गदर्शन के साथ प्रदान करता है.</string>
+    <string name="version_label">संस्करण</string>
+    <string name="developer_label">डेवलपर</string>
+
+    <string name="accessibility_button">बटन</string>
+    <string name="accessibility_card">सेवा कार्ड</string>
+    <string name="accessibility_grid">सेवाओं की ग्रिड</string>
+    <string name="accessibility_logo">नेट्रा प्लस लोगो</string>
+
+    <string name="action_back">वापस</string>
+    <string name="action_select_language">भाषा चयनित</string>
+    <string name="action_open_category">श्रेणी खोलना</string>
+
+    <!-- New 7-section Home -->
+    <string name="welcome_message">नेट्रा+ में आपका स्वागत है। सेवा खोलने के लिए डबल टैप करें।</string>
+    <string name="section_voice_tools">वॉइस टूल्स</string>
+    <string name="section_vision_tools">विज़न टूल्स</string>
+    <string name="section_communication">संचार</string>
+    <string name="section_emergency">आपातकाल</string>
+    <string name="section_learning">लर्निंग ज़ोन</string>
+    <string name="section_entertainment">मनोरंजन</string>
+    <string name="section_gov_support">सरकार एवं सहायता</string>
+</resources>

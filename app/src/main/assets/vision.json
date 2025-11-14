@@ -1,0 +1,12 @@
+[
+  {"id":"ocr","title":"OCR Text Reader","description":"Read printed text"},
+  {"id":"currency","title":"Currency Detector","description":"Recognize Indian Rupee"},
+  {"id":"color","title":"Color Detector","description":"Detect colors"},
+  {"id":"barcode","title":"Barcode & QR Scanner","description":"Scan codes"},
+  {"id":"light","title":"Light Level","description":"Check brightness"},
+  {"id":"flash","title":"Flashlight","description":"Toggle torch"},
+  {"id":"zoom","title":"Magnifier","description":"Zoom text"},
+  {"id":"shape","title":"Object Shape","description":"Basic shapes"},
+  {"id":"docscan","title":"Document Scanner","description":"Capture documents"},
+  {"id":"scene","title":"Scene Label","description":"Basic labels"}
+]

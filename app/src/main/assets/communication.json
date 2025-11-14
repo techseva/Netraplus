@@ -1,0 +1,12 @@
+[
+  {"id":"dialer","title":"Voice Dialer","description":"Make calls by voice"},
+  {"id":"sms","title":"SMS Reader","description":"Read messages"},
+  {"id":"contacts","title":"Contact Search","description":"Find contacts"},
+  {"id":"missed","title":"Missed Call Reader","description":"Missed call alerts"},
+  {"id":"announce","title":"Call Announcer","description":"Announce callers"},
+  {"id":"share","title":"Audio Notes Share","description":"Share notes"},
+  {"id":"silent","title":"Silent Mode","description":"Toggle silent"},
+  {"id":"autoreply","title":"Auto Voice Reply","description":"Reply by voice"},
+  {"id":"notifications","title":"Read Notifications","description":"Voice notifications"},
+  {"id":"favorites","title":"Favorite Contacts","description":"Quick access"}
+]

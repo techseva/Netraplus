@@ -1,0 +1,12 @@
+[
+  {"id":"clock","title":"Talking Clock","description":"Know the time"},
+  {"id":"reminder","title":"Reminders","description":"Set reminders"},
+  {"id":"shopping","title":"Shopping Tips","description":"Buy safely"},
+  {"id":"travel","title":"Travel Tips","description":"Travel guidance"},
+  {"id":"guide","title":"City Guide","description":"Navigate city"},
+  {"id":"cooking","title":"Cooking","description":"Simple recipes"},
+  {"id":"cleaning","title":"Cleaning","description":"Home cleaning"},
+  {"id":"alarms","title":"Alarms","description":"Use alarms"},
+  {"id":"calendar","title":"Calendar","description":"Plan your day"},
+  {"id":"contacts","title":"Contacts","description":"Important contacts"}
+]

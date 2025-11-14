@@ -1,0 +1,12 @@
+[
+  {"id":"audio","title":"Audio Lessons","description":"Listen to lessons"},
+  {"id":"scholarship","title":"Scholarships","description":"Scholarship info"},
+  {"id":"quiz","title":"Quizzes","description":"Practice quizzes"},
+  {"id":"braille","title":"Braille Basics","description":"Learn Braille"},
+  {"id":"library","title":"Library","description":"Offline resources"},
+  {"id":"skills","title":"Skill Courses","description":"Skill building"},
+  {"id":"reading","title":"Reading Tips","description":"How to read better"},
+  {"id":"time","title":"Time Management","description":"Plan your study"},
+  {"id":"notes","title":"Notes","description":"Make effective notes"},
+  {"id":"exams","title":"Exam Prep","description":"Prepare for exams"}
+]

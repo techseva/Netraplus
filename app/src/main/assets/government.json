@@ -1,0 +1,12 @@
+[
+  {"id":"aadhaar","title":"Aadhaar Info","description":"Understand Aadhaar services","ttsMessage":"Aadhaar information"},
+  {"id":"pan","title":"PAN Info","description":"Permanent Account Number details","ttsMessage":"PAN information"},
+  {"id":"voter","title":"Voter ID","description":"Voter services","ttsMessage":"Voter ID services"},
+  {"id":"pension","title":"Pension","description":"Pension details","ttsMessage":"Pension services"},
+  {"id":"passport","title":"Passport","description":"Passport guidance","ttsMessage":"Passport services"},
+  {"id":"ration","title":"Ration Card","description":"Ration card details"},
+  {"id":"dl","title":"Driving License","description":"DL services"},
+  {"id":"birth","title":"Birth Certificate","description":"Birth certificate process"},
+  {"id":"caste","title":"Caste Certificate","description":"Caste certificate info"},
+  {"id":"income","title":"Income Certificate","description":"Income certificate info"}
+]

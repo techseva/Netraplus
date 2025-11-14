@@ -1,0 +1,12 @@
+[
+  {"id":"sos_sms","title":"SOS SMS","description":"Send SMS to 3 contacts"},
+  {"id":"call_police","title":"Call Police","description":"Dial 100"},
+  {"id":"call_ambulance","title":"Call Ambulance","description":"Dial 108"},
+  {"id":"alarm","title":"Loud Alarm","description":"Play siren sound"},
+  {"id":"flash_alert","title":"Flash Alert","description":"Blink flashlight"},
+  {"id":"shake_sos","title":"Shake to SOS","description":"Trigger SOS by shake"},
+  {"id":"first_aid","title":"First Aid Guide","description":"Voice guide"},
+  {"id":"blood_card","title":"Blood Type Card","description":"Show blood type"},
+  {"id":"fake_call","title":"Fake Call","description":"Simulate call"},
+  {"id":"safety_tips","title":"Safety Tips","description":"Helpful tips"}
+]

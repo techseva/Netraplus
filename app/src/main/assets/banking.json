@@ -1,0 +1,12 @@
+[
+  {"id":"account","title":"Open Account","description":"How to open account"},
+  {"id":"atm","title":"ATM Guide","description":"Use ATM safely"},
+  {"id":"upi","title":"UPI Basics","description":"Use UPI"},
+  {"id":"transfer","title":"Money Transfer","description":"Transfer tips"},
+  {"id":"loan","title":"Loans","description":"Loan info"},
+  {"id":"insurance","title":"Insurance","description":"Basics"},
+  {"id":"fraud","title":"Fraud Safety","description":"Avoid frauds"},
+  {"id":"passbook","title":"Passbook","description":"Update passbook"},
+  {"id":"branch","title":"Bank Visit","description":"At the branch"},
+  {"id":"digital","title":"Digital Banking","description":"Use apps"}
+]

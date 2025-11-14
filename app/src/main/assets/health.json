@@ -1,0 +1,12 @@
+[
+  {"id":"sos","title":"Emergency","description":"Emergency help steps","ttsMessage":"Emergency"},
+  {"id":"blood","title":"Blood Info","description":"Blood groups and tips"},
+  {"id":"medicine","title":"Medicine Reminder","description":"Set medicine reminders"},
+  {"id":"firstaid","title":"First Aid","description":"Basic first aid"},
+  {"id":"covid","title":"COVID Care","description":"Precautions and info"},
+  {"id":"hospital","title":"Hospital Guide","description":"How to visit hospital"},
+  {"id":"insurance","title":"Health Insurance","description":"Insurance basics"},
+  {"id":"diet","title":"Healthy Diet","description":"Food tips"},
+  {"id":"exercise","title":"Exercises","description":"Simple exercises"},
+  {"id":"mental","title":"Mental Health","description":"Relaxation tips"}
+]

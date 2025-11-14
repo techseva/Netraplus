@@ -1,0 +1,12 @@
+[
+  {"id":"braille","title":"Braille Lessons","description":"Learn Braille with audio"},
+  {"id":"spoken_en","title":"Spoken English","description":"Practice English"},
+  {"id":"vocab","title":"Vocabulary Builder","description":"New words daily"},
+  {"id":"commerce","title":"Commerce Lessons","description":"Basics of commerce"},
+  {"id":"quiz","title":"Quizzes","description":"MCQ voice quizzes"},
+  {"id":"tips","title":"Daily Tips","description":"Study tips"},
+  {"id":"inspire","title":"Inspirational Audio","description":"Motivation clips"},
+  {"id":"timer","title":"Study Timer","description":"Focus timer"},
+  {"id":"bookmarks","title":"Bookmarks","description":"Save items"},
+  {"id":"revision","title":"Revision Mode","description":"Quick revision"}
+]

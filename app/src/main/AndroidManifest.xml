@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Netra">
+        <activity
+            android:name="com.netraplus.calculator.TalkingCalculatorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/calc_title"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.calculator.CalculatorVoiceSettingsActivity"
+            android:exported="false"
+            android:label="@string/calc_voice_settings_title"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.calculator.CalculatorSettingsActivity"
+            android:exported="false"
+            android:label="@string/calc_settings_title"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.calculator.CalculatorActivity"
+            android:exported="false"
+            android:label="@string/calc_title"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.AboutActivity"
+            android:exported="false"
+            android:label="@string/title_about"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.PrivacyPolicyActivity"
+            android:exported="false"
+            android:label="@string/menu_privacy"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.CategoryActivity"
+            android:exported="false"
+            android:label="@string/title_category"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.HomeActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.LanguageActivity"
+            android:exported="false"
+            android:label="@string/title_language"
+            android:theme="@style/Theme.Netra" />
+        <activity
+            android:name="com.netraplus.ui.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Netra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

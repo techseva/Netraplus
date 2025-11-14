@@ -1,0 +1,12 @@
+[
+  {"id":"talk_calc","title":"Talking Calculator","description":"Calculator with voice feedback"},
+  {"id":"talk_clock","title":"Talking Clock","description":"Time announcements"},
+  {"id":"recorder","title":"Voice Recorder","description":"Record notes offline"},
+  {"id":"reminder","title":"Talking Reminder","description":"Voice reminders"},
+  {"id":"calendar","title":"Talking Calendar","description":"Date and events"},
+  {"id":"converter","title":"Unit Converter","description":"Convert units"},
+  {"id":"dictionary","title":"Offline Dictionary","description":"Word meanings"},
+  {"id":"commands","title":"Voice Commands","description":"Offline commands"},
+  {"id":"notepad","title":"Talking Notepad","description":"Voice notes"},
+  {"id":"translator","title":"Offline Translator","description":"Basic phrases"}
+]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">నేత్ర+</string>
+    <string name="tts_welcome">నేత్ర ప్లస్‌కు స్వాగతం – మీ యాక్సెసిబిలిటీ గైడ్.</string>
+    <string name="title_language">భాష ఎంచుకోండి</string>
+    <string name="lang_english">English</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_hindi">హిందీ</string>
+
+    <string name="title_home">హోమ్</string>
+    <string name="title_category">వర్గం</string>
+    <string name="title_about">గురించి</string>
+
+    <string name="cat_government">ప్రభుత్వ &amp; ఐడి సేవలు</string>
+    <string name="cat_health">ఆరోగ్యం &amp; భద్రత</string>
+    <string name="cat_education">విద్య &amp; నేర్చుకోవడం</string>
+    <string name="cat_jobs">ఉద్యోగాలు &amp; అవకాశాలు</string>
+    <string name="cat_banking">బ్యాంకింగ్ &amp; ఫైనాన్స్</string>
+    <string name="cat_daily">దైనందిన అవసరాలు</string>
+
+    <string name="desc_government">ప్రభుత్వ మరియు గుర్తింపు సేవలు</string>
+    <string name="desc_health">ఆరోగ్యం మరియు భద్రత సేవలు</string>
+    <string name="desc_education">విద్య మరియు నేర్చుకునే సేవలు</string>
+    <string name="desc_jobs">ఉద్యోగాలు మరియు అవకాశాలు</string>
+    <string name="desc_banking">బ్యాంకింగ్ మరియు ఫైనాన్స్ సేవలు</string>
+    <string name="desc_daily">రోజువారీ అవసరాల సేవలు</string>
+
+    <string name="button_about">గురించి</string>
+    <string name="about_text">నేత్ర+ వాయిస్ మరియు హాప్టిక్ మార్గదర్శకతతో ఆఫ్‌లైన్‌లో అవసరమైన సేవలను అందిస్తుంది.</string>
+    <string name="version_label">వెర్షన్</string>
+    <string name="developer_label">డెవలపర్</string>
+
+    <string name="accessibility_button">బటన్</string>
+    <string name="accessibility_card">సేవ కార్డ్</string>
+    <string name="accessibility_grid">సేవల గ్రిడ్</string>
+    <string name="accessibility_logo">నేత్ర ప్లస్ లోగో</string>
+
+    <string name="action_back">వెనుకకు</string>
+    <string name="action_select_language">భాష ఎంపికైంది</string>
+    <string name="action_open_category">వర్గాన్ని తెరవడం</string>
+
+    <!-- New 7-section Home -->
+    <string name="welcome_message">నేత్ర+లోకి స్వాగతం. సేవను తెరవడానికి రెండు సార్లు తాకండి.</string>
+    <string name="section_voice_tools">వాయిస్ సాధనాలు</string>
+    <string name="section_vision_tools">విజన్ సాధనాలు</string>
+    <string name="section_communication">కమ్యూనికేషన్</string>
+    <string name="section_emergency">అత్యవసరం</string>
+    <string name="section_learning">లెర్నింగ్ జోన్</string>
+    <string name="section_entertainment">వినోదం</string>
+    <string name="section_gov_support">ప్రభుత్వ &amp; సహాయం</string>
+</resources>

@@ -1,0 +1,12 @@
+[
+  {"id":"jobsearch","title":"Job Search","description":"How to search jobs"},
+  {"id":"resume","title":"Resume Tips","description":"Make a resume"},
+  {"id":"interview","title":"Interview Prep","description":"Prepare for interview"},
+  {"id":"govt","title":"Government Jobs","description":"Govt job info"},
+  {"id":"skill","title":"Skill Jobs","description":"Skill based jobs"},
+  {"id":"online","title":"Online Work","description":"Work from home"},
+  {"id":"intern","title":"Internships","description":"Find internships"},
+  {"id":"rights","title":"Worker Rights","description":"Know your rights"},
+  {"id":"finance","title":"Income Options","description":"Earn money"},
+  {"id":"mentor","title":"Mentorship","description":"Get guidance"}
+]

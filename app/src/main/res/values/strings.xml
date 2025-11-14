@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Netra+</string>
+    <string name="tts_welcome">Welcome to Netra Plus – your guide to accessibility.</string>
+    <string name="title_language">Choose Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_telugu">తెలుగు</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_about">About</string>
+
+    <string name="cat_government">Government &amp; ID Services</string>
+    <string name="cat_health">Health &amp; Safety</string>
+    <string name="cat_education">Education &amp; Learning</string>
+    <string name="cat_jobs">Jobs &amp; Opportunities</string>
+    <string name="cat_banking">Banking &amp; Finance</string>
+    <string name="cat_daily">Daily Needs</string>
+
+    <string name="desc_government">Government and identification services</string>
+    <string name="desc_health">Health and safety services</string>
+    <string name="desc_education">Education and learning services</string>
+    <string name="desc_jobs">Jobs and opportunities</string>
+    <string name="desc_banking">Banking and finance services</string>
+    <string name="desc_daily">Daily utilities and needs</string>
+
+    <string name="button_about">About</string>
+    <string name="about_text">Netra+ helps blind and visually impaired users access essential services offline with voice and haptic guidance.</string>
+    <string name="version_label">Version</string>
+    <string name="developer_label">Developer</string>
+
+    <string name="accessibility_button">Button</string>
+    <string name="accessibility_card">Service card</string>
+    <string name="accessibility_grid">Services grid</string>
+    <string name="accessibility_logo">Netra Plus logo</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_select_language">Language selected</string>
+    <string name="action_open_category">Opening category</string>
+
+    <!-- New 7-section Home -->
+    <string name="welcome_message">Welcome to Netra+. Double tap a service to open.</string>
+    <string name="section_voice_tools">Voice Tools</string>
+    <string name="section_vision_tools">Vision Tools</string>
+    <string name="section_communication">Communication</string>
+    <string name="section_emergency">Emergency</string>
+    <string name="section_learning">Learning Zone</string>
+    <string name="section_entertainment">Entertainment</string>
+    <string name="section_gov_support">Government &amp; Support</string>
+
+    <!-- Toolbar menu -->
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_language">Language</string>
+
+    <!-- Talking Calculator -->
+    <string name="calc_title">Talking Calculator</string>
+    <string name="calc_settings_title">Calculator Settings</string>
+    <string name="calc_display">Calculator display</string>
+    <string name="cd_num_0">Number 0 button</string>
+    <string name="cd_num_1">Number 1 button</string>
+    <string name="cd_num_2">Number 2 button</string>
+    <string name="cd_num_3">Number 3 button</string>
+    <string name="cd_num_4">Number 4 button</string>
+    <string name="cd_num_5">Number 5 button</string>
+    <string name="cd_num_6">Number 6 button</string>
+    <string name="cd_num_7">Number 7 button</string>
+    <string name="cd_num_8">Number 8 button</string>
+    <string name="cd_num_9">Number 9 button</string>
+    <string name="cd_dot">Decimal point button</string>
+    <string name="cd_add">Plus button</string>
+    <string name="cd_sub">Minus button</string>
+    <string name="cd_mul">Multiply button</string>
+    <string name="cd_div">Divide button</string>
+    <string name="cd_eq">Equal button</string>
+    <string name="cd_clear">Clear button</string>
+    <string name="calc_plus">Plus</string>
+    <string name="calc_minus">Minus</string>
+    <string name="calc_multiply">Multiply</string>
+    <string name="calc_divide">Divide</string>
+    <string name="calc_equals_to">Equal to %1$s</string>
+    <string name="calc_cleared">Calculator cleared.</string>
+    <string name="calc_nan">Not a number</string>
+    <string name="calc_pitch">Voice pitch</string>
+    <string name="calc_speed">Voice speed</string>
+
+    <!-- Talking Calculator - Accessibility Cursor Prompts -->
+    <string name="calc_accessibility_instruction">Talking calculator ready. Use swipe or arrow keys to move. Double-tap to activate. Open settings to change voice pitch and speed.</string>
+    
+    <!-- Display -->
+    <string name="calc_display_desc">Display. %1$s.</string>
+    <string name="calc_cursor_display">Display. Shows current expression or result.</string>
+    
+    <!-- Cursor prompts for GridLayout calculator -->
+    <string name="cursor_display">Display. Shows current expression or result.</string>
+    <string name="cursor_0">Zero. Double-tap to enter zero.</string>
+    <string name="cursor_1">One. Double-tap to enter one.</string>
+    <string name="cursor_2">Two. Double-tap to enter two.</string>
+    <string name="cursor_3">Three. Double-tap to enter three.</string>
+    <string name="cursor_4">Four. Double-tap to enter four.</string>
+    <string name="cursor_5">Five. Double-tap to enter five.</string>
+    <string name="cursor_6">Six. Double-tap to enter six.</string>
+    <string name="cursor_7">Seven. Double-tap to enter seven.</string>
+    <string name="cursor_8">Eight. Double-tap to enter eight.</string>
+    <string name="cursor_9">Nine. Double-tap to enter nine.</string>
+    <string name="cursor_dot">Decimal point. Double-tap to add decimal point.</string>
+    <string name="cursor_divide">Divide. Double-tap to divide.</string>
+    <string name="cursor_multiply">Multiply. Double-tap to multiply.</string>
+    <string name="cursor_minus">Minus. Double-tap to subtract.</string>
+    <string name="cursor_equals">Equals. Double-tap to calculate result.</string>
+    <string name="cursor_clear">Clear. Double-tap to clear calculator.</string>
+    
+    <!-- Number Buttons - Cursor Prompts -->
+    <string name="calc_cursor_zero">Zero. Double-tap to enter zero.</string>
+    <string name="calc_cursor_one">One. Double-tap to enter one.</string>
+    <string name="calc_cursor_two">Two. Double-tap to enter two.</string>
+    <string name="calc_cursor_three">Three. Double-tap to enter three.</string>
+    <string name="calc_cursor_four">Four. Double-tap to enter four.</string>
+    <string name="calc_cursor_five">Five. Double-tap to enter five.</string>
+    <string name="calc_cursor_six">Six. Double-tap to enter six.</string>
+    <string name="calc_cursor_seven">Seven. Double-tap to enter seven.</string>
+    <string name="calc_cursor_eight">Eight. Double-tap to enter eight.</string>
+    <string name="calc_cursor_nine">Nine. Double-tap to enter nine.</string>
+    
+    <!-- Operator Buttons - Cursor Prompts -->
+    <string name="calc_cursor_dot">Decimal point. Double-tap to add decimal point.</string>
+    <string name="calc_cursor_plus">Plus. Double-tap to add.</string>
+    <string name="calc_cursor_minus">Minus. Double-tap to subtract.</string>
+    <string name="calc_cursor_multiply">Multiply. Double-tap to multiply.</string>
+    <string name="calc_cursor_divide">Divide. Double-tap to divide.</string>
+    <string name="calc_cursor_equal">Equals. Double-tap to calculate result.</string>
+    <string name="calc_cursor_clear">Clear. Double-tap to clear calculator.</string>
+    <string name="calc_cursor_settings">Calculator settings. Double-tap to open voice and vibration controls.</string>
+    
+    <!-- Settings Cursor Prompts -->
+    <string name="calc_cursor_pitch">Pitch control. Use left or right to decrease or increase pitch.</string>
+    <string name="calc_cursor_speed">Speed control. Use left or right to decrease or increase speech speed.</string>
+    
+    <!-- Button Content Descriptions - Premium Calculator -->
+    <string name="calc_btn_zero_desc">Number zero</string>
+    <string name="calc_btn_one_desc">Number one</string>
+    <string name="calc_btn_two_desc">Number two</string>
+    <string name="calc_btn_three_desc">Number three</string>
+    <string name="calc_btn_four_desc">Number four</string>
+    <string name="calc_btn_five_desc">Number five</string>
+    <string name="calc_btn_six_desc">Number six</string>
+    <string name="calc_btn_seven_desc">Number seven</string>
+    <string name="calc_btn_eight_desc">Number eight</string>
+    <string name="calc_btn_nine_desc">Number nine</string>
+    <string name="calc_btn_dot_desc">Decimal point</string>
+    <string name="calc_btn_plus_desc">Plus operator</string>
+    <string name="calc_btn_minus_desc">Minus operator</string>
+    <string name="calc_btn_multiply_desc">Multiply operator</string>
+    <string name="calc_btn_divide_desc">Divide operator</string>
+    <string name="calc_btn_equal_desc">Equals</string>
+    <string name="calc_btn_clear_desc">Clear button</string>
+    <string name="calc_btn_backspace_desc">Backspace button</string>
+    <string name="calc_btn_plusminus_desc">Plus minus button</string>
+    
+    <!-- Voice Announcements -->
+    <string name="calc_voice_zero">Zero</string>
+    <string name="calc_voice_one">One</string>
+    <string name="calc_voice_two">Two</string>
+    <string name="calc_voice_three">Three</string>
+    <string name="calc_voice_four">Four</string>
+    <string name="calc_voice_five">Five</string>
+    <string name="calc_voice_six">Six</string>
+    <string name="calc_voice_seven">Seven</string>
+    <string name="calc_voice_eight">Eight</string>
+    <string name="calc_voice_nine">Nine</string>
+    <string name="calc_voice_dot">Decimal point</string>
+    <string name="calc_voice_plus">Plus</string>
+    <string name="calc_voice_minus">Minus</string>
+    <string name="calc_voice_multiply">Multiply</string>
+    <string name="calc_voice_divide">Divide</string>
+    <string name="calc_voice_cleared">Calculator cleared</string>
+    <string name="calc_voice_result">Result: %1$s</string>
+    <string name="calc_voice_invalid">Invalid input</string>
+    
+    <!-- Settings -->
+    <string name="calc_voice_settings_title">Calculator Voice Settings</string>
+    <string name="calc_haptic_feedback">Haptic feedback</string>
+    
+    <!-- Hindi Placeholders (to be translated) -->
+    <string name="calc_cursor_zero_hi">शून्य। दो बार टैप करें शून्य दर्ज करने के लिए।</string>
+    <string name="calc_cursor_one_hi">एक। दो बार टैप करें एक दर्ज करने के लिए।</string>
+    
+    <!-- Telugu Placeholders (to be translated) -->
+    <string name="calc_cursor_zero_te">సున్నా. సున్నాను నమోదు చేయడానికి రెండుసార్లు టాప్ చేయండి.</string>
+    <string name="calc_cursor_one_te">ఒకటి. ఒకటిని నమోదు చేయడానికి రెండుసార్లు టాప్ చేయండి.</string>
+</resources>

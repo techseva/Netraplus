@@ -1,0 +1,12 @@
+[
+  {"id":"stories","title":"Audio Stories","description":"Listen to stories"},
+  {"id":"music","title":"Music Player","description":"Play offline music"},
+  {"id":"relax","title":"Relaxation Sounds","description":"Calming sounds"},
+  {"id":"jokes","title":"Jokes Audio","description":"Funny jokes"},
+  {"id":"guess","title":"Guess the Sound","description":"Audio game"},
+  {"id":"nature","title":"Nature Sounds","description":"Forest, rain"},
+  {"id":"voice_ctrl","title":"Voice Controls","description":"Play/Pause by voice"},
+  {"id":"favorites","title":"Favorites","description":"Save favorites"},
+  {"id":"repeat","title":"Repeat Mode","description":"Loop playback"},
+  {"id":"sleep","title":"Sleep Timer","description":"Auto stop"}
+]

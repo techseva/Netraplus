@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Netra.ToolbarTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Base calculator button style (safe minimal attributes) -->
+    <style name="CalcButtonBase" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:textSize">24sp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalcButton" parent="CalcButtonBase">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalcOpButton" parent="CalcButtonBase">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CalcEqButton" parent="CalcButtonBase">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Premium Calculator Button Styles - Perfect Circles & Pills -->
+    
+    <!-- Number Buttons: Perfect Circles 90dp × 90dp, Light Grey #E8E8E8 -->
+    <style name="CircleButtonLight" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/calc_light_grey</item>
+        <item name="cornerRadius">45dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:elevation">2dp</item>
+        <item name="rippleColor">@color/calc_ripple_dark</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Operator Buttons: Perfect Circles 90dp × 90dp, Orange #F5A623 -->
+    <style name="CircleButtonOperator" parent="CircleButtonLight">
+        <item name="backgroundTint">@color/calc_operator_orange</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="rippleColor">@color/calc_ripple_light</item>
+    </style>
+
+    <!-- Equal Button: Perfect Circle 90dp × 90dp, Green #2ECC71 -->
+    <style name="CircleButtonEqual" parent="CircleButtonLight">
+        <item name="backgroundTint">@color/calc_equal_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="rippleColor">@color/calc_ripple_light</item>
+    </style>
+
+    <!-- Zero Button: Pill Shape 195dp × 90dp -->
+    <style name="PillButtonZero" parent="CircleButtonLight">
+        <item name="android:layout_width">195dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="cornerRadius">45dp</item>
+    </style>
+
+    <!-- Clear Button: Rounded Rectangle 200dp × 70dp, Red #E63946 -->
+    <style name="ClearButtonRed" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/calc_clear_red</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:elevation">2dp</item>
+        <item name="rippleColor">@color/calc_ripple_light</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Legacy style for old calculator layout -->
+    <style name="CalcClearButton" parent="CalcButtonBase">
+        <item name="backgroundTint">@color/calc_clear_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Professional Calculator Styles for GridLayout -->
+    <style name="CalcButtonBaseGrid">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:minHeight">90dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#E8E8E8</item>
+        <item name="android:textColor">#0B2545</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:importantForAccessibility">yes</item>
+    </style>
+
+    <style name="CalcNumber" parent="CalcButtonBaseGrid">
+        <item name="android:background">@drawable/num_button_bg</item>
+    </style>
+
+    <style name="CalcOperator" parent="CalcButtonBaseGrid">
+        <item name="android:background">@drawable/operator_button_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalcEqual" parent="CalcButtonBaseGrid">
+        <item name="android:background">@drawable/equal_button_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalcZero">
+        <item name="android:layout_width">195dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/num_button_bg</item>
+        <item name="android:textColor">#0B2545</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:importantForAccessibility">yes</item>
+    </style>
+
+    <!-- Small Compact Calculator Styles -->
+    <style name="CalcButtonBaseSmall">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:minHeight">70dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#E8E8E8</item>
+        <item name="android:textColor">#0B2545</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:importantForAccessibility">yes</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="CalcNumberSmall" parent="CalcButtonBaseSmall">
+        <item name="android:background">@drawable/num_button_bg_small</item>
+    </style>
+
+    <style name="CalcOperatorSmall" parent="CalcButtonBaseSmall">
+        <item name="android:background">@drawable/operator_button_bg_small</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CalcEqualSmall" parent="CalcButtonBaseSmall">
+        <item name="android:background">@drawable/equal_button_bg_small</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CalcZeroSmall" parent="CalcButtonBaseSmall">
+        <item name="android:layout_width">148dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:minWidth">148dp</item>
+        <item name="android:background">@drawable/num_button_bg_small</item>
+    </style>
+</resources>

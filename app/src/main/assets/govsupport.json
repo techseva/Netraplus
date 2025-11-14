@@ -1,0 +1,12 @@
+[
+  {"id":"disability_cert","title":"Disability Certificate","description":"How to apply"},
+  {"id":"pension","title":"Pension Schemes","description":"Eligibility and steps"},
+  {"id":"concessions","title":"Concession Guides","description":"Travel, education"},
+  {"id":"ngos","title":"NGO Directory","description":"Support organizations"},
+  {"id":"helplines","title":"Helpline Numbers","description":"Important helplines"},
+  {"id":"audio_guides","title":"Audio Guides","description":"Step-by-step"},
+  {"id":"legal_rights","title":"Legal Rights","description":"Know your rights"},
+  {"id":"access_support","title":"Accessibility Support","description":"Facilities info"},
+  {"id":"job_schemes","title":"Job Schemes","description":"Govt jobs and schemes"},
+  {"id":"volunteer","title":"Volunteer Contact","description":"Get help"}
+]

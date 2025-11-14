@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/calc_bg_light"
+    android:padding="16dp">
+
+    <!-- Display area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:gravity="end|bottom">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/calc_text_dark"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <!-- Keypad -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <!-- Row 1: C, backspace, plusminus, divide -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:text="C"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/calc_clear_red"
+                android:contentDescription="Clear"
+                android:onClick="onButtonClick" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBackspace"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:text="⌫"
+                android:textSize="20sp"
+                android:textColor="@color/calc_text_dark"
+                app:backgroundTint="@color/calc_btn_grey"
+                android:contentDescription="Delete last digit"
+                android:onClick="onButtonClick" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPlusMinus"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:text="±"
+                android:textSize="20sp"
+                android:textColor="@color/calc_text_dark"
+                app:backgroundTint="@color/calc_btn_grey"
+                android:contentDescription="Change sign"
+                android:onClick="onButtonClick" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDivide"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:text="÷"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/calc_op_orange"
+                android:contentDescription="Divide"
+                android:onClick="onButtonClick" />
+        </LinearLayout>
+
+        <!-- Row 2: 7,8,9, multiply -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingVertical="4dp">
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn7" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="7" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Seven" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn8" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="8" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Eight" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn9" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="9" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Nine" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnMultiply" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="×" android:textSize="20sp" android:textColor="@color/white" app:backgroundTint="@color/calc_op_orange" android:contentDescription="Multiply" android:onClick="onButtonClick"/>
+        </LinearLayout>
+
+        <!-- Row 3: 4,5,6, minus -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingVertical="4dp">
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn4" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="4" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Four" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn5" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="5" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Five" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn6" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="6" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Six" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnMinus" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="−" android:textSize="20sp" android:textColor="@color/white" app:backgroundTint="@color/calc_op_orange" android:contentDescription="Minus" android:onClick="onButtonClick"/>
+        </LinearLayout>
+
+        <!-- Row 4: 1,2,3, plus -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingVertical="4dp">
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn1" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="1" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="One" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn2" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="2" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Two" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn3" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="3" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Three" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnPlus" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="+" android:textSize="20sp" android:textColor="@color/white" app:backgroundTint="@color/calc_op_orange" android:contentDescription="Plus" android:onClick="onButtonClick"/>
+        </LinearLayout>
+
+        <!-- Row 5: 0 (wide), ., percent, equals -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingVertical="4dp">
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btn0" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="2" android:layout_margin="6dp" android:text="0" android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Zero" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnDecimal" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="." android:textSize="20sp" android:textColor="@color/calc_text_dark" app:backgroundTint="@color/calc_btn_grey" android:contentDescription="Decimal point" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnPercent" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="%" android:textSize="20sp" android:textColor="@color/white" app:backgroundTint="@color/calc_op_orange" android:contentDescription="Percent" android:onClick="onButtonClick"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnEquals" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1" android:layout_margin="6dp" android:text="=" android:textSize="20sp" android:textColor="@color/white" app:backgroundTint="@color/calc_eq_green" android:contentDescription="Equals" android:onClick="onButtonClick"/>
+        </LinearLayout>
+
+        <!-- Bottom actions: Voice and Settings -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVoice"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="2"
+                android:layout_marginEnd="8dp"
+                android:text="Voice"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/calc_voice_blue"
+                android:onClick="onVoiceButtonClick"
+                android:contentDescription="Voice input" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSettings"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="\u2699"
+                android:textSize="18sp"
+                android:textColor="@color/calc_text_dark"
+                app:backgroundTint="@color/calc_btn_grey"
+                android:onClick="onSettingsButtonClick"
+                android:contentDescription="Settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

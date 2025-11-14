@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        app:titleTextColor="@color/black"
+        app:titleTextAppearance="@style/TextAppearance.Netra.ToolbarTitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|end"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="@string/calc_display"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn7" android:text="7" android:contentDescription="@string/cd_num_7" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn8" android:text="8" android:contentDescription="@string/cd_num_8" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn9" android:text="9" android:contentDescription="@string/cd_num_9" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcOpButton" android:id="@+id/btnDiv" android:text="÷" android:contentDescription="@string/cd_div" android:layout_width="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="8dp">
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn4" android:text="4" android:contentDescription="@string/cd_num_4" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn5" android:text="5" android:contentDescription="@string/cd_num_5" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn6" android:text="6" android:contentDescription="@string/cd_num_6" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcOpButton" android:id="@+id/btnMul" android:text="×" android:contentDescription="@string/cd_mul" android:layout_width="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="8dp">
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn1" android:text="1" android:contentDescription="@string/cd_num_1" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn2" android:text="2" android:contentDescription="@string/cd_num_2" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn3" android:text="3" android:contentDescription="@string/cd_num_3" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcOpButton" android:id="@+id/btnSub" android:text="−" android:contentDescription="@string/cd_sub" android:layout_width="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:layout_marginTop="8dp">
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn0" android:text="0" android:contentDescription="@string/cd_num_0" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnDot" android:text="." android:contentDescription="@string/cd_dot" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcEqButton" android:id="@+id/btnEq" android:text="=" android:contentDescription="@string/cd_eq" android:layout_width="0dp" android:layout_weight="1"/>
+                <com.google.android.material.button.MaterialButton style="@style/CalcOpButton" android:id="@+id/btnAdd" android:text="+" android:contentDescription="@string/cd_add" android:layout_width="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClear"
+            style="@style/CalcClearButton"
+            android:text="C"
+            android:contentDescription="@string/cd_clear"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</LinearLayout>
